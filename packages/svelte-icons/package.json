@@ -1,0 +1,45 @@
+{
+	"name": "@svelte-icons/src",
+	"version": "0.0.0",
+	"license": "Apache-2.0",
+	"description": "Svelte Icons",
+	"keywords": [
+		"svelte",
+		"svelte3",
+		"svelte-components",
+		"sveltejs",
+		"icons",
+		"components",
+		"svelte",
+		"svg"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node ./scripts/build.cjs",
+		"test:types": "svelte-check --workspace=src"
+	},
+	"author": "Seb Toombs <sebtoombs@gmail.com>",
+	"devDependencies": {
+		"cheerio": "^1.0.0-rc.10",
+		"mkdirp": "^1.0.4",
+		"svgo": "^2.3.1",
+		"svelte": "^3.40.1",
+		"svelte-check": "^2.2.3",
+		"ts-node-dev": "1.1.8",
+		"typescript": "^4.3.5",
+		"@types/node": "^16.4.0"
+	},
+	"svelte": "index.js",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"sideEffects": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sebtoombs/svelte-icons"
+	},
+	"homepage": "https://github.com/sebtoombs/svelte-icons",
+	"bugs": "https://github.com/sebtoombs/svelte-icons/issues",
+	"files": [
+		"lib"
+	]
+}

@@ -1,0 +1,3 @@
+[submodule "packages/svelte-icons/icons/eva-icons"]
+	path = packages/svelte-icons/icons/eva-icons
+	url = https://github.com/akveo/eva-icons.git
